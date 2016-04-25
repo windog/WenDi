@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="檀">#b36d61</color>
+    <color name="月白">#d7ecf1</color>
+    <color name="黎">#76664d</color>
+    <color name="水绿">#d4f2e8</color>
+    <color name="绾">#a98175</color>
+    <color name="牙白">#efdeb0</color>
+    <color name="竹青">#789262</color>
+    <color name="黛">#494166</color>
+    <color name="驼色">#a88462</color>
+    <color name="秋香色">#b9b612</color>
+    <color name="靛青">#177cb0</color>
+    <color name="茶白">#f3f8f1</color>
+    <color name="鸦青">#424b50</color>
+    <color name="赤">#c3272b</color>
+    <color name="炎">#ff3300</color>
+    <color name="妃色">#ed5736</color>
+    <color name="胭脂">#9d2932</color>
+    <color name="艾青">#a3e2c5</color>
+    <color name="黛蓝">#415065</color>
+</resources>

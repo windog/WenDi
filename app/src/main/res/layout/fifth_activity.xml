@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/牙白">
+
+    <cn.studyjams.s1.sj50.wendi.view.TextViewVertical
+        android:id="@+id/tv"
+        textSize="60"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:clickable="true" />
+
+</HorizontalScrollView>

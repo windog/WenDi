@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main_back" />
+
+    <TextView
+        android:id="@+id/main_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:text="认识辛弃疾"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/shengping_btn"
+        style="@style/MainButton"
+        android:layout_below="@id/main_tv"
+        android:text="生平简介" />
+
+    <Button
+        android:id="@+id/yishu_btn"
+        style="@style/MainButton"
+        android:layout_below="@id/shengping_btn"
+        android:text="艺术成就" />
+
+    <Button
+        android:id="@+id/junshi_btn"
+        style="@style/MainButton"
+        android:layout_below="@id/yishu_btn"
+        android:text="军事才能" />
+
+    <Button
+        android:id="@+id/aiguo_btn"
+        style="@style/MainButton"
+        android:layout_below="@id/junshi_btn"
+        android:text="爱国思想" />
+
+    <Button
+        android:id="@+id/mingzuo_btn"
+        style="@style/MainButton"
+        android:layout_below="@id/aiguo_btn"
+        android:text="名作欣赏" />
+</RelativeLayout>
