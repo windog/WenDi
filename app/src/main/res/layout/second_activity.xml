@@ -1,35 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/牙白">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/牙白">
+        android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/avatar_tv"
+            android:id="@+id/shufa_iv"
             android:layout_width="wrap_content"
             android:layout_height="400dp"
+            android:layout_centerHorizontal="true"
             android:layout_marginBottom="8dp"
             android:layout_marginLeft="32dp"
             android:layout_marginRight="32dp"
             android:paddingBottom="8dp"
             android:paddingTop="32dp"
-            android:src="@drawable/avatar" />
+            android:src="@drawable/shufa" />
 
-        <!-- lineSpacingMultiplier 行距倍数-->
         <TextView
-            android:id="@+id/brief_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/avatar_tv"
+            android:layout_below="@id/shufa_iv"
             android:layout_marginBottom="24dp"
             android:layout_marginLeft="32dp"
             android:layout_marginRight="32dp"
             android:lineSpacingMultiplier="1.5"
-            android:text="@string/brief"
+            android:text="@string/artist"
             android:textSize="16sp" />
+
     </RelativeLayout>
+
 </ScrollView>

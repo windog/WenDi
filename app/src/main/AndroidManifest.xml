@@ -16,6 +16,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.FirstActivity"></activity>
+        <activity android:name=".ui.SecondActivity"></activity>
+        <activity android:name=".ui.ThirdActivty"></activity>
+        <activity android:name=".ui.FourthActivity"></activity>
         <activity android:name=".ui.FifthActivity"></activity>
     </application>
 
