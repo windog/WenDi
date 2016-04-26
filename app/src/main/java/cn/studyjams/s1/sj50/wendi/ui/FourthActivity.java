@@ -13,5 +13,6 @@ public class FourthActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fourth_activity);
+        this.setTitle("爱国思想");
     }
 }

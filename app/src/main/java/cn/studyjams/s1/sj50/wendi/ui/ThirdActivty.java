@@ -13,5 +13,6 @@ public class ThirdActivty extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.third_activity);
+        this.setTitle("军事才能");
     }
 }
