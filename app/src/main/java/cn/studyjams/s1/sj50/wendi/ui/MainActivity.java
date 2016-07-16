@@ -10,7 +10,7 @@ import cn.studyjams.s1.sj50.wendi.R;
 
 /**
  * Created by windog on 2016/4/25.
- * 继承 AppCompatActivity 才能保证有标题栏
+ * 继承 AppCompatActivity 才能保证有标题栏，高版本的兼容问题。
  */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     @Override
