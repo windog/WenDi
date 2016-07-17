@@ -14,6 +14,5 @@ public class FirstActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.first_activity);
         this.setTitle("生平简介");
-
     }
 }
